@@ -3,16 +3,24 @@
 == Use-Case: <use-case name>
 
 === Kurzbeschreibung
-//<Kurze Beschreibung des Use Case>
+Der Kunde gibt eine neue Bestellung auf.
 
 === Kurzbeschreibung der Akteure
 
-==== <Akteur 1 Name>
+==== <Kunde>
+Der Kunde bestellt die Cocktails und bring somit umsatz.
+
+==== <Mitarbeiter>
+Der Mitarbeiter hilft dem Unternehmen bei verschiedenen Aufgaben die es zu tun gibt.
 
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
 
-<Vorbedingung 1>
+-Warenkorb ist nicht leer
+
+-Ware ist noch vorhanden
+
+-Lieferung an den Standort ist möglich
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
